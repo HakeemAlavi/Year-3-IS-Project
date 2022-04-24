@@ -12,7 +12,7 @@
 	$data=mysqli_connect($host,$user,$pwd,$db);
 	if($data===false)
 	{
-		die("connection error");
+		die("connection Error");
 	}
 
 	if($_SERVER["REQUEST_METHOD"]=="POST")
