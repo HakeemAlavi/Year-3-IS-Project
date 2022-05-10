@@ -22,9 +22,9 @@
 	
 ?> -->
   <a class="active" href="logout.php">Logout</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#profile">Profile</a>
+  <a href="newspage.php">News</a>
+  <a href="contactpage.php">Contact</a>
+  <a href="profilepage.php">Profile</a>
 </div>
 	
 <!-- <div class="logout">

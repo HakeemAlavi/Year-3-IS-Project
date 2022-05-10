@@ -3,6 +3,7 @@
  if(isset($_POST["submit"])){
  	$username = $_POST["username"];
  	$password = $_POST["password"];
+    
  	
  	require_once 'connection.inc.php';
  	require_once 'function.inc.php';
