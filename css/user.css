@@ -1,0 +1,82 @@
+.logout a
+		{
+			display: inline-block;
+			margin-top: 6px;
+			padding: 0px 10px;
+			background: royalblue;
+			color: #fff;
+			border-radius: 40px;
+			font-weight: 500;
+			letter-spacing: 1px;
+			text-decoration: none;
+			position: absolute;
+			right: 0;
+			top: 0;
+			text-align: center;
+			margin-right: 6px;
+			padding-bottom: 16px;
+		}
+
+		.sidebar a 
+		{
+			display: inline-block;
+			margin-top: 20px;
+			padding: 8px 20px;
+			background: royalblue;
+			color: #fff;
+			border-radius: 40px;
+			font-weight: 500;
+			letter-spacing: 1px;
+			text-decoration: none;
+		}
+
+		.sidebar {
+		  height: 92.1%;
+		  width: 210px;
+		  position: fixed;
+		  z-index: 1;
+		  bottom: 0;
+		  left: 0;
+		  background-color: #123456;
+		  overflow-x: hidden;
+		  padding-top: 16px;
+		  padding-right: 12px;
+		  padding-left: 8px;
+		}
+
+		.sidebar a {
+		  padding: 6px 8px 6px 16px;
+		  text-decoration: none;
+		  font-size: 14px;
+		  color: #fff;
+		  display: block;
+		}
+
+		.sidebar a:hover {
+		  color: #f1f1f1;
+		}
+
+
+		.topnav {
+		  overflow: hidden;
+		  background-color: whitesmoke;
+		}
+
+		.topnav a {
+		  float: right;
+		  color: royalblue;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		  font-size: 14px;
+		}
+
+		.topnav a:hover {
+		  background-color: white;
+		  color: black;
+		}
+
+		.topnav a.active {
+		  background-color: royalblue;
+		  color: #fff;
+		}
