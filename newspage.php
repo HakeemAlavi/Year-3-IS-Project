@@ -11,9 +11,10 @@
 
 	<div class="topnav">
 	  <a class="active" href="logout.php">Logout</a>
-	  <a href="adminhome.php">Admin Home</a>
+	  <a href="newspage.php">News</a>
 	  <a href="contactpage.php">Contact</a>
 	  <a href="profilepage.php">Profile</a>
+	  <a href="userhome.php">Home</a>
 	</div>
 <section>
 	<div class="content">

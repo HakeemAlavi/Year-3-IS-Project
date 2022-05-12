@@ -2,7 +2,10 @@
 
  if(isset($_POST["submit"])){
  	$username = $_POST["username"];
+    $email = $_POST["email"];
  	$password = $_POST["password"];
+
+    $hashpassword = password_hash($password, PASSWORD_DEFAULT);
     
  	
  	require_once 'connection.inc.php';
@@ -13,7 +16,7 @@
  	// 	exit();
  	// }
 
- 	createUser($con, $username, $password);
+ 	createUser($con, $username, $email, $hashpassword);
 
  }
  else{

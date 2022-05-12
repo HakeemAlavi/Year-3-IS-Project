@@ -12,8 +12,8 @@
 // 	}
 
 
-function createUser($con,$username,$password){
-		$sql="INSERT INTO login (username,password) VALUES (?,?);";
+function createUser($con,$username,$email, $password){
+		$sql="INSERT INTO login (username,useremail,password) VALUES (?,?,?);";
 		$stmt = mysqli_stmt_init($con);
 		if (!mysqli_stmt_prepare($stmt,$sql)) {
 			header("location: ../signuppage.php?error=stmtfailed");
@@ -22,7 +22,7 @@ function createUser($con,$username,$password){
 			// $hashedPwd = password_hash($pwd, PASSWORD_DEFAULT);
 
 
-		mysqli_stmt_bind_param($stmt,"ss",$username,$password);
+		mysqli_stmt_bind_param($stmt,"sss",$username,$email,$password);
 		mysqli_stmt_execute($stmt);
 		mysqli_stmt_close($stmt);
 

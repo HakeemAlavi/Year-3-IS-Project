@@ -12,8 +12,8 @@
 		<header>
 			<a href="#"><img src="img/logo.png" class="logo" style="width:110px;height:75px;"></a>
 			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Menu</a></li>
+				<li><a href="landingpage.php">Home</a></li>
+				<li><a href="menupage.php">Menu</a></li>
 				<li><a href="signuppage.php">Sign Up</a></li>
 				<li><a href="loginpage.php">Login</a></li>
 			</ul>

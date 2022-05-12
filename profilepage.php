@@ -16,7 +16,8 @@
 	  <a class="active" href="logout.php">Logout</a>
 	  <a href="newspage.php">News</a>
 	  <a href="contactpage.php">Contact</a>
-	  <a href="adminhome.php">Admin Home</a>
+	  <a href="profilepage.php">Profile</a>
+	  <a href="userhome.php">Home</a>
 	</div>
 
 	<h1 style="color:royalblue;">USER PROFILE</h1>
@@ -31,12 +32,16 @@ if (isset($_SESSION["username"])) {
 				
 				
 				echo "<p>Name:  " . $_SESSION["username"] . "</p>";
-				// echo "<p> E-mail: " . $_SESSION["email"] . "</p>";
+				//echo "<p> E-mail: " . $_SESSION["email"] . "</p>";
 				// echo "<p> UID: " . $_SESSION[""] . "</p>";
 				// echo "<p> ID: " .$_SESSION["id"] . " </p>";
 				
 			}
-
+// if (isset($_SESSION["email"])) {
+				
+				
+// 				echo "<p>Email:  " . $_SESSION["email"] . "</p>";
+// 			}
 ?>
 </body>
 </html>

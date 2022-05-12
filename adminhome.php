@@ -24,9 +24,10 @@
 	
 ?> -->
   <a class="active" href="logout.php">Logout</a>
-  <a href="newspage.php">News</a>
+  <a href="adminhome.php">Home</a>
+  <!-- <a href="newspage.php">News</a>
   <a href="contactpage.php">Contact</a>
-  <a href="profilepage.php">Profile</a>
+  <a href="profilepage.php">Profile</a> -->
 </div>
 	
 
@@ -35,8 +36,8 @@
 <a href="logout.php">Logout</a>
 </div> -->
 	<div class="sidebar">
-	  <a href="#queries"><i class="fas fa-chart-line"></i> Patient queries</a>
-	  <a href="#prescriptions"><i class="fas fa-list-ul"></i> Prescriptions</a>
+	  <a href="docquery.php"><i class="fas fa-chart-line"></i> Patient queries</a>
+	  <a href="docprescription.php"><i class="fas fa-list-ul"></i> Prescriptions</a>
 
 	</div>
 

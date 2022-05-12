@@ -8,6 +8,7 @@
 	<meta charset="utf-8">
 	<title>SIGN UP PAGE</title>
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/logandsign.css">
 </head>
 <body>
 	
@@ -15,7 +16,7 @@
 			<a href="#"><img src="img/logo.png" class="logo" style="width:110px;height:75px;"></a>
 			<ul>
 				<li><a href="landingpage.php" style="color:royalblue;">Home</a></li>
-				<li><a href="#" style="color:royalblue;">Menu</a></li>
+				<li><a href="menupage.php" style="color:royalblue;">Menu</a></li>
 				<li><a href="signuppage.php" style="color:royalblue;">Sign Up</a></li>
 				<li><a href="loginpage.php" style="color:royalblue;">Login</a></li>
 			</ul>
@@ -28,6 +29,12 @@
 	<div>
 		<label style="color:#fff">Username</label>
 		<input type="text" name="username" required>
+
+	</div>
+	<br><br>
+	<div class="email">
+		<label style="color:#fff">Email</label>
+		<input type="text" name="email" required>
 
 	</div>
 	<br><br>

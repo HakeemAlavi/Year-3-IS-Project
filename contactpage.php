@@ -11,8 +11,9 @@
 	<div class="topnav">
 	  <a class="active" href="logout.php">Logout</a>
 	  <a href="newspage.php">News</a>
-	  <a href="adminhome.php">Admin Home</a>
+	  <a href="contactpage.php">Contact</a>
 	  <a href="profilepage.php">Profile</a>
+	  <a href="userhome.php">Home</a>
 	</div>
 
 	<section>
@@ -26,9 +27,9 @@
 			
 		</div>
 	
-		<div class="imgBox">
-			<img src="img/contact3.jpg" class="totoclinic" style="width:600px;height:400px;">
-		</div>
+		<!-- <div class="imgBox">
+			<img src="img/contact.jpg" class="totoclinic" style="width:600px;height:400px;">
+		</div> -->
 		</section>
 </body>
 </html>
