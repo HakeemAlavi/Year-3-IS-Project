@@ -5,6 +5,9 @@
 	<meta charset="utf-8">
 	<title>LANDING PAGE</title>
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/tooltip.css">
+	
+	
 </head>
 <body>
 	<section>
@@ -20,22 +23,33 @@
 		</header>
 		<div class="content">
 			<div class="textBox">
-				<h2><br>It's not just any clinic<br>It's <span>The Toto Clinic</span></h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit ut nisl vestibulum molestie. Cras dapibus sapien ac sem fermentum hendrerit. In quis lectus commodo quam efficitur egestas. Mauris vitae urna in justo ultrices volutpat. Maecenas sit amet posuere ante. Praesent a diam ex. Maecenas ullamcorper ultricies nisi, id vehicula velit iaculis ac. Pellentesque dignissim sed magna id finibus. Cras ac commodo velit. Aenean dui elit, laoreet vestibulum ligula sit amet, tempor interdum lacus. Duis consequat neque ut turpis venenatis ultrices.</p>
+				<h2><br>It's not just any clinic<br>It's <span>The Toto Clinic</span></h2><br>
+				<p>Our facility is tailor made for children with a full time paediatrician providing routine and emergency care, in-house diagnostics and facility for observation, rehydration and nebulizations.</p>
 				<a href="#">Learn more</a>
 			
 		</div>
 		<div class="imgBox">
 			<img src="img/img1.jpg" class="totoclinic" style="width:600px;height:400px;">
 		</div>
-		<ul class="thumb">
-			
-			<li><img src="img/thumb4.png" style="width:45px;height:45px;">
-			<li><img src="img/thumb5.png" style="width:55px;height:47px;"><li><img src="img/thumb7.png" style="width:45px;height:45px;">
-			
-			
+
+		<div class="thumb">
+			<!-- <a class="tooltip">Lorem ipsum</a> -->
+			<li data-tippy-content="Phone number: 0713289333"><img src="img/thumb4.png" style="width:45px;height:45px;">
+			</div>
+		
+		<div class="thumb2">
+			<li data-tippy-content="E-mail: totoclinic@gmail.com"><img src="img/thumb5.png" style="width:55px;height:47px;">
+			</div>
+		
+		<div class="thumb3">
+			<li data-tippy-content="Linked In profile: Mohammed Zahir"><img src="img/thumb7.png" style="width:45px;height:45px;">		
+			</div>
 
 	</section>
 
+	<script src="https://unpkg.com/popper.js@1"></script>
+	<script src="https://unpkg.com/tippy.js@4"></script>
+
+	<script src="./js/main.js"></script>
 </body>
 </html>

@@ -5,7 +5,7 @@
     $email = $_POST["email"];
  	$password = $_POST["password"];
 
-    $hashpassword = password_hash($password, PASSWORD_DEFAULT);
+    //$hashpassword = password_hash($password, PASSWORD_DEFAULT);
     
  	
  	require_once 'connection.inc.php';
@@ -16,7 +16,7 @@
  	// 	exit();
  	// }
 
- 	createUser($con, $username, $email, $hashpassword);
+ 	createUser($con, $username, $email, $password);
 
  }
  else{

@@ -19,7 +19,7 @@ function createUser($con,$username,$email, $password){
 			header("location: ../signuppage.php?error=stmtfailed");
 			exit();
 		}
-			// $hashedPwd = password_hash($pwd, PASSWORD_DEFAULT);
+			 //$hashedPwd = password_hash($password, PASSWORD_DEFAULT);
 
 
 		mysqli_stmt_bind_param($stmt,"sss",$username,$email,$password);
