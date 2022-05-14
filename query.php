@@ -22,8 +22,9 @@
 </div>
 	
 <center>
+	<br><br>
 <h2 style="color:royalblue;">Query station</h2>
-<br><br><br>
+<br>
 <?php
 		if (isset($_GET["error"])) {
 			if ($_GET["error"] == "emptyinput") {

@@ -1,4 +1,4 @@
-.logout a
+		.logout a
 		{
 			display: inline-block;
 			margin-top: 6px;
@@ -80,3 +80,14 @@
 		  background-color: royalblue;
 		  color: #fff;
 		}
+
+		.commentbox
+		{
+			width: 600px;
+			padding: 20px;
+			margin-bottom: 4px;
+			background-color: royalblue;
+			border-radius: 4px;
+		}
+
+		

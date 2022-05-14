@@ -122,7 +122,3 @@ header a img
 	background-color: white;
 }*/
 
-.tippy-box[data-theme~='tomato'] {
-  background-color: tomato;
-  color: yellow;
-}
