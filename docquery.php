@@ -11,6 +11,7 @@
 	<title>PATIENT QUERIES PAGE</title>
 	<link rel="stylesheet" href="css/user.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/docqueries.css">
 </head>
 <body>
 		<div class="topnav">
@@ -23,9 +24,10 @@
   <a href="adminhome.php">Home</a>
 </div>
 	<center>
+		<br><br>
 	<h2 style="color:royalblue;">Patient Queries</h2>
 	<br><br><br>
-	
+	<!-- <div class="commentbox"> -->
 	<?php
 $servername = 'localhost';
 
@@ -61,7 +63,7 @@ if (mysqli_num_rows($result) > 0) {
 
 mysqli_close($con);
 ?>
-
+<!-- </div> -->
 </center>
 </body>
 </html>

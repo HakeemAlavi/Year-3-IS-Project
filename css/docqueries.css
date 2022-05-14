@@ -1,0 +1,11 @@
+.commentbox
+{
+	width: 600px;
+	padding: 20px;
+	padding-top: 60px;
+	padding-bottom: 5px;
+	margin-bottom: 16px;
+	background-color: royalblue;
+	border-radius: 40px;
+	color: white;
+}
