@@ -56,7 +56,7 @@
 </head>
 <body>
 	<header>
-			<a href="#"><img src="img/logo.png" class="logo" style="width:110px;height:75px;"></a>
+			<a href="landingpage.php"><img src="img/logo.png" class="logo" style="width:110px;height:75px;"></a>
 			<ul>
 				<li><a href="landingpage.php" style="color:royalblue;">Home</a></li>
 				<li><a href="menupage.php" style="color:royalblue;">Menu</a></li>

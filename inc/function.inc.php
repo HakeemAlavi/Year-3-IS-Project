@@ -66,3 +66,12 @@ function uidExists($con,$username){
 			header("Location: docquery.php");
 		}
 	}
+
+	function replyComments($url){
+		if (isset($_POST['commentReply'])){
+
+			$url = 'docprescription.php';
+			
+			header('Location: ' . $url);
+		}
+	}

@@ -13,7 +13,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/docqueries.css">
 	<link rel="stylesheet" href="css/docqbutton.css">
-	<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+	<link rel="stylesheet" href="css/docqbtncolor.css">
 </head>
 <body>
 		<div class="topnav">
@@ -48,7 +48,7 @@ $con = mysqli_connect($servername, $username, $serverpass, $databasename);
 if (!$con) {
   die("Connection failed: " . mysqli_connect_error());
 }
-
+$url = 'docprescription.php';
 $sql = "SELECT firstname, lastname , email, biodata FROM user";
 $result = mysqli_query($con, $sql);
 
@@ -65,7 +65,8 @@ if (mysqli_num_rows($result) > 0) {
     		
     		"<input type='hidden' name='email' value='".$row["email"]."'>".
 
-    		"<button type='submit' name='commentDelete'>Delete</button>"."<br><br>".
+    		"<button type='submit' name='commentDelete'class='delete'>Delete</button>".
+    		"<button type='submit' name='commentReply' action='".replyComments($url)."'>Reply</button>"."<br><br>".
     		"</form>".
     		'</div>';
 

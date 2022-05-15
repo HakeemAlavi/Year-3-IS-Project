@@ -13,7 +13,7 @@
 	<section>
 		<div class="circle"></div>
 		<header>
-			<a href="#"><img src="img/logo.png" class="logo" style="width:110px;height:75px;"></a>
+			<a href="landingpage.php"><img src="img/logo.png" class="logo" style="width:110px;height:75px;"></a>
 			<ul>
 				<li><a href="landingpage.php">Home</a></li>
 				<li><a href="menupage.php">Menu</a></li>
@@ -25,7 +25,7 @@
 			<div class="textBox">
 				<h2><br>It's not just any clinic<br>It's <span>The Toto Clinic</span></h2><br>
 				<p>Our facility is tailor made for children with a full time paediatrician providing routine and emergency care, in-house diagnostics and facility for observation, rehydration and nebulizations.</p>
-				<a href="#">Learn more</a>
+				<a href="menupage.php">Learn more</a><br><br>
 			
 		</div>
 		<div class="imgBox">
