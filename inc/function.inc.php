@@ -33,7 +33,7 @@ function createUser($con,$username,$email, $password){
 
 
 function uidExists($con,$username){
-		$sql="SELECT * FROM users WHERE usersUid = ? ;";
+		$sql="SELECT * FROM login WHERE username = ? ;";
 		$stmt = mysqli_stmt_init($con);
 		if (!mysqli_stmt_prepare($stmt,$sql)) {
 			header("location: ../signuppage.php?error=stmtfailed");
@@ -73,5 +73,17 @@ function uidExists($con,$username){
 			$url = 'docprescription.php';
 			
 			header('Location: ' . $url);
+		}
+	}
+
+	function deletePrescriptions($con){
+		if (isset($_POST['prescriptionDelete'])){
+			
+			$to_email = $_POST['to_email'];
+			
+
+			$sql = "DELETE FROM doctor WHERE to_email='$to_email'";
+			$result = $con->query($sql);
+			header("Location: prescription.php");
 		}
 	}

@@ -32,7 +32,7 @@
 <a href="logout.php">Logout</a>
 </div> -->
 <div class="sidebar">
-	  <a href="query.php"><i class="fas fa-chart-line"></i> Your queries</a>
+	  <a href="query.php"><i class="fas fa-chart-line"></i> Query station</a>
 	  <a href="prescription.php"><i class="fas fa-list-ul"></i> Your Prescriptions</a>
 
 	</div>
