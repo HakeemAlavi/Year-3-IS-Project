@@ -1,0 +1,42 @@
+.styledbutton input{
+	
+	padding: 8px 20px;
+	border-radius: 17px;
+	background-color: white;
+	border-color: white;
+	color: royalblue;
+	font-weight: bold;
+	cursor: pointer;
+
+}
+.styledbutton button{
+	
+	padding: 8px 20px;
+	border-radius: 17px;
+	background-color: white;
+	border-color: white;
+	color: royalblue;
+	font-weight: bold;
+	cursor: pointer;
+
+}
+/*.styledbutton{
+	padding: 8px 20px;
+	border-radius: 17px;
+	background-color: white;
+	border-color: white;
+	color: royalblue;
+	font-weight: bold;
+	cursor: pointer;
+}*/
+
+input{
+	padding: 8px 20px;
+	border-radius: 17px;
+	border-color: white;
+}
+textarea{
+	padding: 8px 20px;
+	border-radius: 17px;
+	border-color: white;
+}

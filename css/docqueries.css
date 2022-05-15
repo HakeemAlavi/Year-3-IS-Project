@@ -8,4 +8,17 @@
 	background-color: royalblue;
 	border-radius: 40px;
 	color: white;
+
+}
+
+.profile
+{
+	padding-left: 50px;
+
+}
+h1
+{
+	padding: 20px;
+	margin-top: 80px;
+	padding-left: 50px;
 }

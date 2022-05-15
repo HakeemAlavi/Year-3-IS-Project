@@ -9,6 +9,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/admin.css">
+	<link rel="stylesheet" href="css/docqueries.css">
 	<title>PROFILE PAGE</title>
 </head>
 <body>
@@ -19,8 +20,8 @@
 	  <a href="profilepage.php">Profile</a>
 	  <a href="userhome.php">Home</a>
 	</div>
-
-	<h1 style="color:royalblue;">USER PROFILE</h1>
+	
+	<h1 style="color:royalblue;"><span>USER PROFILE</span></h1>
 
 
 
@@ -31,7 +32,7 @@ require_once 'inc/function.inc.php';
 if (isset($_SESSION["username"])) {
 				
 				
-				echo "<p>Name:  " . $_SESSION["username"] . "</p>";
+				echo '<div class="profile"><p>' . "Name:  " . $_SESSION["username"] . '</p></div>';
 				//echo "<p> E-mail: " . $_SESSION["email"] . "</p>";
 				// echo "<p> UID: " . $_SESSION[""] . "</p>";
 				// echo "<p> ID: " .$_SESSION["id"] . " </p>";
@@ -43,5 +44,6 @@ if (isset($_SESSION["username"])) {
 // 				echo "<p>Email:  " . $_SESSION["email"] . "</p>";
 // 			}
 ?>
+
 </body>
 </html>

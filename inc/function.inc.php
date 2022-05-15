@@ -54,3 +54,15 @@ function uidExists($con,$username){
 
 		mysqli_stmt_close($stmt);
 	}
+
+	function deleteComments($con){
+		if (isset($_POST['commentDelete'])){
+			
+			$email = $_POST['email'];
+			
+
+			$sql = "DELETE FROM user WHERE email='$email'";
+			$result = $con->query($sql);
+			header("Location: docquery.php");
+		}
+	}
