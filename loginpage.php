@@ -33,7 +33,7 @@
 	$pwd="";
 	$db="isproject";
 
-	
+	error_reporting(E_ERROR | E_PARSE);
 
 
 	$data=mysqli_connect($host,$user,$pwd,$db);
@@ -75,7 +75,7 @@
 	<br><br>
 	<div>
 		<label style="color:#fff">Password</label>
-		<input type="password" name="password">
+		<input type="password" name="password" required>
 
 	</div>
 	<br><br>

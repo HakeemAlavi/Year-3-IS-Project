@@ -11,10 +11,10 @@
  	require_once 'connection.inc.php';
  	require_once 'function.inc.php';
 
- 	// if (emptyInputsSignup($username,$password) !== false) {
- 	// 	header("location:../signuppage.php?error=emptyinput");
- 	// 	exit();
- 	// }
+ 	if (emptyInputsSignup($username,$password) !== false) {
+ 		header("location:../signuppage.php?error=emptyinput");
+ 		exit();
+ 	}
 
  	createUser($con, $username, $email, $password);
 

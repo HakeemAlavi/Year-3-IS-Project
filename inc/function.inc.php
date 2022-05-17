@@ -1,15 +1,15 @@
 <?php
-// function emptyInputsSignup($username,$password){
-// 		$result;
-// 		if (empty($username) || empty($password)) {
+function emptyInputsSignup($username,$password){
+		$result;
+		if (empty($username) || empty($password)) {
 
-// 			$result = true;
-// 		}
-// 		else{
-// 			$result = false;
-// 		}
-// 		return $result;
-// 	}
+			$result = true;
+		}
+		else{
+			$result = false;
+		}
+		return $result;
+	}
 
 
 function createUser($con,$username,$email, $password){
