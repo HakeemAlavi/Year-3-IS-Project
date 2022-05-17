@@ -24,8 +24,21 @@
 			</ul>
 		</header>
 	<center>
+
 		<h2>Sign Up Form</h2>
 		<br><br><br>
+		<?php
+		if (isset($_GET["error"])) {
+			if ($_GET["error"] == "emptyinput") {
+				echo "<p><br>Fill in all fields!</p>";
+			}
+			
+			else if ($_GET["error"] == "none"){
+				echo "<br><p>You have signed up!</p>";
+			}
+		}
+
+	?>
 	<div style="background-color: royalblue; width: 500px; border-radius: 20px;" >	<br><br>
 		<form action="inc/signup.inc.php" method="post">
 	<div>
@@ -54,18 +67,7 @@
 		</form>
 	<br><br>
 	</div>
-	<?php
-		if (isset($_GET["error"])) {
-			if ($_GET["error"] == "emptyinput") {
-				echo "<p><br>Fill in all fields!</p>";
-			}
-			
-			else if ($_GET["error"] == "none"){
-				echo "<br><p>You have signed up!</p>";
-			}
-		}
-
-	?>
+	
 </center>
 </body>
 </html>

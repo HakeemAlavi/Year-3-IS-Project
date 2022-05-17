@@ -32,14 +32,14 @@ function createUser($con,$username,$email, $password){
 
 
 
-function uidExists($con,$username){
-		$sql="SELECT * FROM login WHERE username = ? ;";
+function uidExists($con,$username,$email){
+		$sql="SELECT * FROM login WHERE username = ? OR useremail = ?;";
 		$stmt = mysqli_stmt_init($con);
 		if (!mysqli_stmt_prepare($stmt,$sql)) {
 			header("location: ../signuppage.php?error=stmtfailed");
 			exit();
 		}
-		mysqli_stmt_bind_param($stmt,"s",$username);
+		mysqli_stmt_bind_param($stmt,"ss",$username,$email);
 		mysqli_stmt_execute($stmt);
 
 		$resultData = mysqli_stmt_get_result($stmt);
@@ -87,3 +87,4 @@ function uidExists($con,$username){
 			header("Location: prescription.php");
 		}
 	}
+
