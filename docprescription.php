@@ -7,7 +7,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>PRESCRIPTION CREATION PAGE</title>
-	<link rel="stylesheet" href="css/user.css">
+	<link rel="stylesheet" href="css/bars.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/logandsignbtn.css">
 	<link rel="stylesheet" href="css/docqbtncolor.css">

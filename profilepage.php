@@ -9,7 +9,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/admin.css">
-	<link rel="stylesheet" href="css/docqueries.css">
+	<link rel="stylesheet" href="css/profile.css">
 	<title>PROFILE PAGE</title>
 </head>
 <body>
@@ -21,7 +21,7 @@
 	  <a href="userhome.php">Home</a>
 	</div>
 	
-	<h1 style="color:royalblue;"><span>USER PROFILE</span></h1>
+	<h2 style="color:royalblue;"><span>User Profile</span></h2>
 
 
 

@@ -15,10 +15,16 @@
 {
 	padding-left: 50px;
 
+
 }
-h1
+h2 span 
 {
+
 	padding: 20px;
 	margin-top: 80px;
 	padding-left: 50px;
+	font-size: 1.5em;
+	line-height: 1.4cm;
+	font-weight: 900;
+	padding-top: 100px;
 }

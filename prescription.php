@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>PRESCRIPTION PAGE</title>
-	<link rel="stylesheet" href="css/user.css">
+	<link rel="stylesheet" href="css/bars.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/docqueries.css">
 	<link rel="stylesheet" href="css/docqbutton.css">
